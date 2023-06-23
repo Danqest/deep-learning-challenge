@@ -21,26 +21,26 @@
   - In the first trial of optimization, the data is once again preprocessed with the dropping of the above mentioned columns. Instead of consolidating categories, however, all categories for Application Type and Classification are used, which results in 116 predictive features after one-hot encoding.
   - The network architecture for this model is essentially the same other than input dimensions being scaled up to 116 for all of the new features.
 
-  <MODE SUMMARY IMG>
+![optimized model 0 parameters](https://github.com/danqest/deep-learning-challenge/blob/main/images/model1.png?raw=true)
 
-  - After being run for 100 epochs, the first optimization trial results in validation accuracy of 0.7321 which is an improvement over the original model, though somewhat marginal and still below the 0.7500 desired threshold.
+- After being run for 100 epochs, the first optimization trial results in validation accuracy of 0.7321 which is an improvement over the original model, though somewhat marginal and still below the 0.7500 desired threshold.
 
 - Model Optimization Trial 2:
 
   - In the second trial of optimization, the data is once again preprocessed with the dropping of the above mentioned columns. Only Classification features are consolidated as in the original model (all Application Types are used), which results in 51 predictive features.
   - The network architecture for this model is essentially the same other than input dimensions being scaled up to 52 for the features.
 
-  <MODE SUMMARY IMG>
+![optimized model 1 parameters](https://github.com/danqest/deep-learning-challenge/blob/main/images/model2.png?raw=true)
 
-  - After being run for 100 epochs, the first optimization trial results in validation accuracy of 0.7298 which is an improvement over the original model, though very marginal and still below the 0.7500 desired threshold.
+- After being run for 100 epochs, the first optimization trial results in validation accuracy of 0.7298 which is an improvement over the original model, though very marginal and still below the 0.7500 desired threshold.
 
-  - Model Optimization Trial 3:
-  - In the third trial of optimization, the data is once again preprocessed with the dropping of the above mentioned columns. Only Application Type features are consolidated as in the original model (all Classifications used), which results in 108 predictive features.
-  - The network architecture for this model is essentially the same other than input dimensions being scaled up to 108 for the features.
+- Model Optimization Trial 3:
+- In the third trial of optimization, the data is once again preprocessed with the dropping of the above mentioned columns. Only Application Type features are consolidated as in the original model (all Classifications used), which results in 108 predictive features.
+- The network architecture for this model is essentially the same other than input dimensions being scaled up to 108 for the features.
 
-  <MODE SUMMARY IMG>
+![optimized model 2 parameters](https://github.com/danqest/deep-learning-challenge/blob/main/images/model3.png?raw=true)
 
-  - After being run for 100 epochs, the first optimization trial results in validation accuracy of 0.7324 which is an improvement over the original model and essentiall the same as the first optimization trial, though still somewhat marginal and still below the 0.7500 desired threshold.
+- After being run for 100 epochs, the first optimization trial results in validation accuracy of 0.7324 which is an improvement over the original model and essentiall the same as the first optimization trial, though still somewhat marginal and still below the 0.7500 desired threshold.
 
 ## Summary
 
